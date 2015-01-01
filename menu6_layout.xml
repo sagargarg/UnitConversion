@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_length"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.converter.MainActivity">
+
+    <View
+        android:id="@+id/strut2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"></View>
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/strut2"
+        android:gravity="center"
+        android:inputType="numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strut2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"></EditText>
+
+    <TextView
+        android:id="@+id/fromtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/value1"
+        android:text="From"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/totext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strut2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/value2"
+        android:text="To"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fromtext"
+        android:layout_toLeftOf="@+id/value2"
+        android:layout_toStartOf="@+id/value2"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"></View>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/areaunit1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/areaunit2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit2" />
+
+                <RadioButton
+                    android:id="@+id/areaunit3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit3" />
+
+                <RadioButton
+                    android:id="@+id/areaunit4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit4" />
+
+                <RadioButton
+                    android:id="@+id/areaunit5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit5" />
+
+                <RadioButton
+                    android:id="@+id/areaunit6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit6" />
+
+                <RadioButton
+                    android:id="@+id/areaunit7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit7" />
+
+                <RadioButton
+                    android:id="@+id/areaunit8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit8" />
+
+                <RadioButton
+                    android:id="@+id/areaunit9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit9" />
+
+                <RadioButton
+                    android:id="@+id/areaunit10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit10" />
+
+                <RadioButton
+                    android:id="@+id/areaunit11a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit11" />
+
+                <!--<RadioButton
+                    android:id="@+id/areaunit12a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit12" />-->
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/areaunit1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit1" />
+
+                <RadioButton
+                    android:id="@+id/areaunit2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit2"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/areaunit3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit3" />
+
+                <RadioButton
+                    android:id="@+id/areaunit4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit4" />
+
+                <RadioButton
+                    android:id="@+id/areaunit5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit5" />
+
+                <RadioButton
+                    android:id="@+id/areaunit6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit6" />
+
+                <RadioButton
+                    android:id="@+id/areaunit7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit7" />
+
+                <RadioButton
+                    android:id="@+id/areaunit8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit8" />
+
+                <RadioButton
+                    android:id="@+id/areaunit9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit9" />
+
+                <RadioButton
+                    android:id="@+id/areaunit10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit10" />
+
+                <RadioButton
+                    android:id="@+id/areaunit11b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit11" />
+
+                <!--<RadioButton
+                    android:id="@+id/areaunit12b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/areaunit12" />-->
+
+            </RadioGroup>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

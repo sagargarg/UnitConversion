@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_length"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.converter.MainActivity">
+
+    <View
+        android:id="@+id/strut2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"></View>
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/strut2"
+        android:gravity="center"
+        android:inputType="numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strut2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"></EditText>
+
+    <TextView
+        android:id="@+id/fromtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/value1"
+        android:text="From"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/totext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strut2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/value2"
+        android:text="To"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fromtext"
+        android:layout_toLeftOf="@+id/value2"
+        android:layout_toStartOf="@+id/value2"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"></View>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/kilogram1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilogram1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/pound1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pound1" />
+
+                <RadioButton
+                    android:id="@+id/gram1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gram1" />
+
+                <RadioButton
+                    android:id="@+id/milligram1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/milligram1" />
+
+                <RadioButton
+                    android:id="@+id/ounce1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ounce1" />
+
+                <RadioButton
+                    android:id="@+id/shortton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shortton1" />
+
+                <RadioButton
+                    android:id="@+id/longton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/longton1" />
+
+                <RadioButton
+                    android:id="@+id/tonne1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tonne1" />
+
+                <RadioButton
+                    android:id="@+id/grain1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grain1" />
+
+                <RadioButton
+                    android:id="@+id/stone1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stone1" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/kilogram2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilogram2" />
+
+                <RadioButton
+                    android:id="@+id/pound2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pound2"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/gram2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gram2" />
+
+                <RadioButton
+                    android:id="@+id/milligram2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/milligram2" />
+
+                <RadioButton
+                    android:id="@+id/ounce2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ounce2" />
+
+                <RadioButton
+                    android:id="@+id/shortton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shortton2" />
+
+                <RadioButton
+                    android:id="@+id/longton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/longton2" />
+
+                <RadioButton
+                    android:id="@+id/tonne2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tonne2" />
+
+                <RadioButton
+                    android:id="@+id/grain2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grain2" />
+
+                <RadioButton
+                    android:id="@+id/stone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stone2" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
