@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unit Converter</string>
+    <string name="title_section1">Distance/Length</string>
+    <string name="title_section2">Speed/Velocity</string>
+    <string name="title_section3">Time</string>
+    <string name="title_section4">Mass/Weight</string>
+    <string name="title_section5">Digital Storage</string>
+    <string name="title_section6">Area</string>
+    <string name="title_section7">Temperature</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Distance/Length -->
+    <string name="distanceunit1">Kilometer</string>
+    <string name="distanceunit2">Meter</string>
+    <string name="distanceunit3">Centimeter</string>
+    <string name="distanceunit4">Millimeter</string>
+    <string name="distanceunit5">Micrometer</string>
+    <string name="distanceunit6">Mile</string>
+    <string name="distanceunit7">Yard</string>
+    <string name="distanceunit8">Feet</string>
+    <string name="distanceunit9">Inch</string>
+    <string name="distanceunit10">Nautical Mile</string>
+    <string name="distanceunit11">Chain</string>
+    <string name="distanceunit12">Fathom</string>
+    <string name="distanceunit13">Hand</string>
+
+    <!-- Speed/Velocity -->
+    <string name="speedunit1">Mile/Hour</string>
+    <string name="speedunit2">Kilometer/Hour</string>
+    <string name="speedunit3">Meter/Hour</string>
+    <string name="speedunit4">Yard/Hour</string>
+    <string name="speedunit5">Feet/Hour</string>
+    <string name="speedunit6">Inch/Hour</string>
+    <string name="speedunit7">Meter/Second</string>
+    <string name="speedunit8">Yard/Second</string>
+    <string name="speedunit9">Feet/Second</string>
+    <string name="speedunit10">Inch/Second</string>
+    <string name="speedunit11">Knot</string>
+    <string name="speedunit12">Meter/Minute</string>
+    <string name="speedunit13">Yard/Minute</string>
+    <string name="speedunit14">Feet/Minute</string>
+    <string name="speedunit15">Inch/Minute</string>
+
+    <!-- Time -->
+    <string name="year1">Year</string>
+    <string name="month1">Month</string>
+    <string name="week1">Week</string>
+    <string name="day1">Day</string>
+    <string name="hour1">Hour</string>
+    <string name="minute1">Minute</string>
+    <string name="second1">Second</string>
+    <string name="millisecond1">Millisecond</string>
+    <string name="microsecond1">Microsecond</string>
+    <string name="nanosecond1">Nanosecond</string>
+
+    <string name="year2">Year</string>
+    <string name="month2">Month</string>
+    <string name="week2">Week</string>
+    <string name="day2">Day</string>
+    <string name="hour2">Hour</string>
+    <string name="minute2">Minute</string>
+    <string name="second2">Second</string>
+    <string name="millisecond2">Millisecond</string>
+    <string name="microsecond2">Microsecond</string>
+    <string name="nanosecond2">Nanosecond</string>
+
+    <!-- Mass/Weight -->
+    <string name="kilogram1">Kilogram</string>
+    <string name="pound1">Pound</string>
+    <string name="gram1">Gram</string>
+    <string name="milligram1">Milligram</string>
+    <string name="ounce1">Ounce</string>
+    <string name="shortton1">Short Ton</string>
+    <string name="longton1">Long Ton</string>
+    <string name="tonne1">Tonne</string>
+    <string name="grain1">Grain</string>
+    <string name="stone1">Stone</string>
+
+    <string name="kilogram2">Kilogram</string>
+    <string name="pound2">Pound</string>
+    <string name="gram2">Gram</string>
+    <string name="milligram2">Milligram</string>
+    <string name="ounce2">Ounce</string>
+    <string name="shortton2">Short Ton</string>
+    <string name="longton2">Long Ton</string>
+    <string name="tonne2">Tonne</string>
+    <string name="grain2">Grain</string>
+    <string name="stone2">Stone</string>
+
+    <!-- Digital Storage -->
+    <string name="bit1">Bit</string>
+    <string name="byte1">Byte</string>
+    <string name="kilobit1">Kilobit</string>
+    <string name="kilobyte1">Kilobyte</string>
+    <string name="kibibyte1">Kibibyte</string>
+    <string name="megabit1">Megabit</string>
+    <string name="megabyte1">Megabyte</string>
+    <string name="mebibyte1">Mebibyte</string>
+    <string name="gigabit1">Gigabit</string>
+    <string name="gigabyte1">Gigabyte</string>
+    <string name="gibibyte1">Gibibyte</string>
+    <string name="terabit1">Terabit</string>
+    <string name="terabyte1">Terabyte</string>
+    <string name="tebibyte1">Tebibyte</string>
+
+    <string name="bit2">Bit</string>
+    <string name="byte2">Byte</string>
+    <string name="kilobit2">Kilobit</string>
+    <string name="kilobyte2">Kilobyte</string>
+    <string name="kibibyte2">Kibibyte</string>
+    <string name="megabit2">Megabit</string>
+    <string name="megabyte2">Megabyte</string>
+    <string name="mebibyte2">Mebibyte</string>
+    <string name="gigabit2">Gigabit</string>
+    <string name="gigabyte2">Gigabyte</string>
+    <string name="gibibyte2">Gibibyte</string>
+    <string name="terabit2">Terabit</string>
+    <string name="terabyte2">Terabyte</string>
+    <string name="tebibyte2">Tebibyte</string>
+
+    <!-- Area -->
+    <string name="areaunit1">Sq. Meter</string>
+    <string name="areaunit2">Sq. Kilometer</string>
+    <string name="areaunit3">Sq. Centimeter</string>
+    <string name="areaunit4">Sq. Millimeter</string>
+    <string name="areaunit5">Hectare</string>
+    <string name="areaunit6">Are</string>
+    <string name="areaunit7">Sq. Mile</string>
+    <string name="areaunit8">Sq. Yard</string>
+    <string name="areaunit9">Sq. Feet</string>
+    <string name="areaunit10">Sq. Inch</string>
+    <string name="areaunit11">Acre</string>
+    <string name="areaunit12">Sq. Rod</string>
+
+    <!-- Temperature -->
+    <string name="tempunit1a">Celsius</string>
+    <string name="tempunit2a">Fahrenheit</string>
+    <string name="tempunit3a">Kelvin</string>
+
+    <string name="tempunit1b">Celsius</string>
+    <string name="tempunit2b">Fahrenheit</string>
+    <string name="tempunit3b">Kelvin</string>
+
+
+</resources>
