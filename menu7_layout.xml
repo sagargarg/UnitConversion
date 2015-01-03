@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignRight="@id/strut2"
         android:gravity="center"
-        android:inputType="numberDecimal"></EditText>
+        android:inputType="numberSigned|numberDecimal"></EditText>
 
     <EditText
         android:id="@+id/value2"
@@ -93,24 +93,29 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/unit1a"
+                    android:id="@+id/tempunit1a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit1a"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/tempunit1" />
 
                 <RadioButton
-                    android:id="@+id/unit2a"
+                    android:id="@+id/tempunit2a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit2a" />
+                    android:text="@string/tempunit2" />
 
                 <RadioButton
-                    android:id="@+id/unit3a"
+                    android:id="@+id/tempunit3a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit3a" />
+                    android:text="@string/tempunit3" />
 
+                <RadioButton
+                    android:id="@+id/tempunit4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tempunit4" />
 
             </RadioGroup>
 
@@ -124,26 +129,31 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/unit1b"
+                    android:id="@+id/tempunit1b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit1b" />
+                    android:text="@string/tempunit1" />
 
                 <RadioButton
-                    android:id="@+id/unit2b"
+                    android:id="@+id/tempunit2b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit2b"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:text="@string/tempunit2" />
 
                 <RadioButton
-                    android:id="@+id/unit3b"
+                    android:id="@+id/tempunit3b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tempunit3b" />
+                    android:text="@string/tempunit3" />
+
+                <RadioButton
+                    android:id="@+id/tempunit4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tempunit4" />
 
             </RadioGroup>
-
         </RelativeLayout>
     </ScrollView>
 

@@ -93,90 +93,89 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/bit1"
+                    android:id="@+id/storageunit1a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bit1"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/storageunit1" />
 
                 <RadioButton
-                    android:id="@+id/byte1"
+                    android:id="@+id/storageunit2a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/byte1" />
+                    android:text="@string/storageunit2" />
 
                 <RadioButton
-                    android:id="@+id/kilobit1"
+                    android:id="@+id/storageunit3a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilobit1" />
+                    android:text="@string/storageunit3" />
 
                 <RadioButton
-                    android:id="@+id/kilobyte1"
+                    android:id="@+id/storageunit4a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilobyte1" />
+                    android:text="@string/storageunit4" />
 
                 <RadioButton
-                    android:id="@+id/kibibyte1"
+                    android:id="@+id/storageunit5a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kibibyte1" />
+                    android:text="@string/storageunit5" />
 
                 <RadioButton
-                    android:id="@+id/megabit1"
+                    android:id="@+id/storageunit6a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/megabit1" />
+                    android:text="@string/storageunit6" />
 
                 <RadioButton
-                    android:id="@+id/megabyte1"
+                    android:id="@+id/storageunit7a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/megabyte1" />
+                    android:text="@string/storageunit7" />
 
                 <RadioButton
-                    android:id="@+id/mebibyte1"
+                    android:id="@+id/storageunit8a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mebibyte1" />
+                    android:text="@string/storageunit8" />
 
                 <RadioButton
-                    android:id="@+id/gigabit1"
+                    android:id="@+id/storageunit9a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gigabit1" />
+                    android:text="@string/storageunit9" />
 
                 <RadioButton
-                    android:id="@+id/gigabyte1"
+                    android:id="@+id/storageunit10a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gigabyte1" />
+                    android:text="@string/storageunit10" />
 
                 <RadioButton
-                    android:id="@+id/gibibyte1"
+                    android:id="@+id/storageunit11a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gibibyte1" />
+                    android:text="@string/storageunit11" />
 
                 <RadioButton
-                    android:id="@+id/terabit1"
+                    android:id="@+id/storageunit12a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/terabit1" />
+                    android:text="@string/storageunit12" />
 
                 <RadioButton
-                    android:id="@+id/terabyte1"
+                    android:id="@+id/storageunit13a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/terabyte1" />
+                    android:text="@string/storageunit13" />
 
                 <RadioButton
-                    android:id="@+id/tebibyte1"
+                    android:id="@+id/storageunit14a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tebibyte1" />
-
+                    android:text="@string/storageunit14" />
             </RadioGroup>
 
             <RadioGroup
@@ -189,92 +188,90 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/bit2"
+                    android:id="@+id/storageunit1b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bit2" />
+                    android:text="@string/storageunit1" />
 
                 <RadioButton
-                    android:id="@+id/byte2"
+                    android:id="@+id/storageunit2b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/byte2"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/storageunit2" />
 
                 <RadioButton
-                    android:id="@+id/kilobit2"
+                    android:id="@+id/storageunit3b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilobit2" />
+                    android:text="@string/storageunit3" />
 
                 <RadioButton
-                    android:id="@+id/kilobyte2"
+                    android:id="@+id/storageunit4b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilobyte2" />
+                    android:text="@string/storageunit4" />
 
                 <RadioButton
-                    android:id="@+id/kibibyte2"
+                    android:id="@+id/storageunit5b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kibibyte2" />
+                    android:text="@string/storageunit5" />
 
                 <RadioButton
-                    android:id="@+id/megabit2"
+                    android:id="@+id/storageunit6b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/megabit2" />
+                    android:text="@string/storageunit6" />
 
                 <RadioButton
-                    android:id="@+id/megabyte2"
+                    android:id="@+id/storageunit7b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/megabyte2" />
+                    android:text="@string/storageunit7" />
 
                 <RadioButton
-                    android:id="@+id/mebibyte2"
+                    android:id="@+id/storageunit8b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mebibyte2" />
+                    android:text="@string/storageunit8" />
 
                 <RadioButton
-                    android:id="@+id/gigabit2"
+                    android:id="@+id/storageunit9b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gigabit2" />
+                    android:text="@string/storageunit9" />
 
                 <RadioButton
-                    android:id="@+id/gigabyte2"
+                    android:id="@+id/storageunit10b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gigabyte2" />
+                    android:text="@string/storageunit10" />
 
                 <RadioButton
-                    android:id="@+id/gibibyte2"
+                    android:id="@+id/storageunit11b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gibibyte2" />
+                    android:text="@string/storageunit11" />
 
                 <RadioButton
-                    android:id="@+id/terabit2"
+                    android:id="@+id/storageunit12b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/terabit2" />
+                    android:text="@string/storageunit12" />
 
                 <RadioButton
-                    android:id="@+id/terabyte2"
+                    android:id="@+id/storageunit13b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/terabyte2" />
+                    android:text="@string/storageunit13" />
 
                 <RadioButton
-                    android:id="@+id/tebibyte2"
+                    android:id="@+id/storageunit14b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tebibyte2" />
-
+                    android:text="@string/storageunit14" />
             </RadioGroup>
-
         </RelativeLayout>
     </ScrollView>
 

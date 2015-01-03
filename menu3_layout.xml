@@ -93,65 +93,65 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/year1"
+                    android:id="@+id/timeunit1a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/year1"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/timeunit1" />
 
                 <RadioButton
-                    android:id="@+id/month1"
+                    android:id="@+id/timeunit2a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/month1" />
+                    android:text="@string/timeunit2" />
 
                 <RadioButton
-                    android:id="@+id/week1"
+                    android:id="@+id/timeunit3a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/week1" />
+                    android:text="@string/timeunit3" />
 
                 <RadioButton
-                    android:id="@+id/day1"
+                    android:id="@+id/timeunit4a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/day1" />
+                    android:text="@string/timeunit4" />
 
                 <RadioButton
-                    android:id="@+id/hour1"
+                    android:id="@+id/timeunit5a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/hour1" />
+                    android:text="@string/timeunit5" />
 
                 <RadioButton
-                    android:id="@+id/minute1"
+                    android:id="@+id/timeunit6a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/minute1" />
+                    android:text="@string/timeunit6" />
 
                 <RadioButton
-                    android:id="@+id/second1"
+                    android:id="@+id/timeunit7a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/second1" />
+                    android:text="@string/timeunit7" />
 
                 <RadioButton
-                    android:id="@+id/millisecond1"
+                    android:id="@+id/timeunit8a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/millisecond1" />
+                    android:text="@string/timeunit8" />
 
                 <RadioButton
-                    android:id="@+id/microsecond1"
+                    android:id="@+id/timeunit9a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/microsecond1" />
+                    android:text="@string/timeunit9" />
 
                 <RadioButton
-                    android:id="@+id/nanosecond1"
+                    android:id="@+id/timeunit10a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nanosecond1" />
+                    android:text="@string/timeunit10" />
 
             </RadioGroup>
 
@@ -165,65 +165,65 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/year2"
+                    android:id="@+id/timeunit1b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/year2" />
+                    android:text="@string/timeunit1" />
 
                 <RadioButton
-                    android:id="@+id/month2"
+                    android:id="@+id/timeunit2b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/month2"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/timeunit2" />
 
                 <RadioButton
-                    android:id="@+id/week2"
+                    android:id="@+id/timeunit3b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/week2" />
+                    android:text="@string/timeunit3" />
 
                 <RadioButton
-                    android:id="@+id/day2"
+                    android:id="@+id/timeunit4b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/day2" />
+                    android:text="@string/timeunit4" />
 
                 <RadioButton
-                    android:id="@+id/hour2"
+                    android:id="@+id/timeunit5b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/hour2" />
+                    android:text="@string/timeunit5" />
 
                 <RadioButton
-                    android:id="@+id/minute2"
+                    android:id="@+id/timeunit6b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/minute2" />
+                    android:text="@string/timeunit6" />
 
                 <RadioButton
-                    android:id="@+id/second2"
+                    android:id="@+id/timeunit7b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/second2" />
+                    android:text="@string/timeunit7" />
 
                 <RadioButton
-                    android:id="@+id/millisecond2"
+                    android:id="@+id/timeunit8b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/millisecond2" />
+                    android:text="@string/timeunit8" />
 
                 <RadioButton
-                    android:id="@+id/microsecond2"
+                    android:id="@+id/timeunit9b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/microsecond2" />
+                    android:text="@string/timeunit9" />
 
                 <RadioButton
-                    android:id="@+id/nanosecond2"
+                    android:id="@+id/timeunit10b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nanosecond2" />
+                    android:text="@string/timeunit10" />
 
             </RadioGroup>
         </RelativeLayout>

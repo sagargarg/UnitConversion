@@ -93,65 +93,65 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/kilogram1"
+                    android:id="@+id/massunit1a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilogram1"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/massunit1" />
 
                 <RadioButton
-                    android:id="@+id/pound1"
+                    android:id="@+id/massunit2a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pound1" />
+                    android:text="@string/massunit2" />
 
                 <RadioButton
-                    android:id="@+id/gram1"
+                    android:id="@+id/massunit3a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gram1" />
+                    android:text="@string/massunit3" />
 
                 <RadioButton
-                    android:id="@+id/milligram1"
+                    android:id="@+id/massunit4a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/milligram1" />
+                    android:text="@string/massunit4" />
 
                 <RadioButton
-                    android:id="@+id/ounce1"
+                    android:id="@+id/massunit5a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ounce1" />
+                    android:text="@string/massunit5" />
 
                 <RadioButton
-                    android:id="@+id/shortton1"
+                    android:id="@+id/massunit6a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/shortton1" />
+                    android:text="@string/massunit6" />
 
                 <RadioButton
-                    android:id="@+id/longton1"
+                    android:id="@+id/massunit7a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/longton1" />
+                    android:text="@string/massunit7" />
 
                 <RadioButton
-                    android:id="@+id/tonne1"
+                    android:id="@+id/massunit8a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tonne1" />
+                    android:text="@string/massunit8" />
 
                 <RadioButton
-                    android:id="@+id/grain1"
+                    android:id="@+id/massunit9a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/grain1" />
+                    android:text="@string/massunit9" />
 
                 <RadioButton
-                    android:id="@+id/stone1"
+                    android:id="@+id/massunit10a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stone1" />
+                    android:text="@string/massunit10" />
 
             </RadioGroup>
 
@@ -165,68 +165,67 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/kilogram2"
+                    android:id="@+id/massunit1b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/kilogram2" />
+                    android:text="@string/massunit1" />
 
                 <RadioButton
-                    android:id="@+id/pound2"
+                    android:id="@+id/massunit2b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pound2"
-                    android:checked="true"/>
+                    android:checked="true"
+                    android:text="@string/massunit2" />
 
                 <RadioButton
-                    android:id="@+id/gram2"
+                    android:id="@+id/massunit3b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gram2" />
+                    android:text="@string/massunit3" />
 
                 <RadioButton
-                    android:id="@+id/milligram2"
+                    android:id="@+id/massunit4b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/milligram2" />
+                    android:text="@string/massunit4" />
 
                 <RadioButton
-                    android:id="@+id/ounce2"
+                    android:id="@+id/massunit5b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ounce2" />
+                    android:text="@string/massunit5" />
 
                 <RadioButton
-                    android:id="@+id/shortton2"
+                    android:id="@+id/massunit6b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/shortton2" />
+                    android:text="@string/massunit6" />
 
                 <RadioButton
-                    android:id="@+id/longton2"
+                    android:id="@+id/massunit7b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/longton2" />
+                    android:text="@string/massunit7" />
 
                 <RadioButton
-                    android:id="@+id/tonne2"
+                    android:id="@+id/massunit8b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tonne2" />
+                    android:text="@string/massunit8" />
 
                 <RadioButton
-                    android:id="@+id/grain2"
+                    android:id="@+id/massunit9b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/grain2" />
+                    android:text="@string/massunit9" />
 
                 <RadioButton
-                    android:id="@+id/stone2"
+                    android:id="@+id/massunit10b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stone2" />
+                    android:text="@string/massunit10" />
 
             </RadioGroup>
-
         </RelativeLayout>
     </ScrollView>
 
