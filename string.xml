@@ -48,81 +48,44 @@
     <string name="speedunit15">Inch/Minute</string>
 
     <!-- Time -->
-    <string name="year1">Year</string>
-    <string name="month1">Month</string>
-    <string name="week1">Week</string>
-    <string name="day1">Day</string>
-    <string name="hour1">Hour</string>
-    <string name="minute1">Minute</string>
-    <string name="second1">Second</string>
-    <string name="millisecond1">Millisecond</string>
-    <string name="microsecond1">Microsecond</string>
-    <string name="nanosecond1">Nanosecond</string>
-
-    <string name="year2">Year</string>
-    <string name="month2">Month</string>
-    <string name="week2">Week</string>
-    <string name="day2">Day</string>
-    <string name="hour2">Hour</string>
-    <string name="minute2">Minute</string>
-    <string name="second2">Second</string>
-    <string name="millisecond2">Millisecond</string>
-    <string name="microsecond2">Microsecond</string>
-    <string name="nanosecond2">Nanosecond</string>
+    <string name="timeunit1">Year</string>
+    <string name="timeunit2">Month</string>
+    <string name="timeunit3">Week</string>
+    <string name="timeunit4">Day</string>
+    <string name="timeunit5">Hour</string>
+    <string name="timeunit6">Minute</string>
+    <string name="timeunit7">Second</string>
+    <string name="timeunit8">Millisecond</string>
+    <string name="timeunit9">Microsecond</string>
+    <string name="timeunit10">Nanosecond</string>
 
     <!-- Mass/Weight -->
-    <string name="kilogram1">Kilogram</string>
-    <string name="pound1">Pound</string>
-    <string name="gram1">Gram</string>
-    <string name="milligram1">Milligram</string>
-    <string name="ounce1">Ounce</string>
-    <string name="shortton1">Short Ton</string>
-    <string name="longton1">Long Ton</string>
-    <string name="tonne1">Tonne</string>
-    <string name="grain1">Grain</string>
-    <string name="stone1">Stone</string>
-
-    <string name="kilogram2">Kilogram</string>
-    <string name="pound2">Pound</string>
-    <string name="gram2">Gram</string>
-    <string name="milligram2">Milligram</string>
-    <string name="ounce2">Ounce</string>
-    <string name="shortton2">Short Ton</string>
-    <string name="longton2">Long Ton</string>
-    <string name="tonne2">Tonne</string>
-    <string name="grain2">Grain</string>
-    <string name="stone2">Stone</string>
+    <string name="massunit1">Kilogram</string>
+    <string name="massunit2">Pound</string>
+    <string name="massunit3">Gram</string>
+    <string name="massunit4">Milligram</string>
+    <string name="massunit5">Ounce</string>
+    <string name="massunit6">Short Ton</string>
+    <string name="massunit7">Long Ton</string>
+    <string name="massunit8">Tonne</string>
+    <string name="massunit9">Grain</string>
+    <string name="massunit10">Stone</string>
 
     <!-- Digital Storage -->
-    <string name="bit1">Bit</string>
-    <string name="byte1">Byte</string>
-    <string name="kilobit1">Kilobit</string>
-    <string name="kilobyte1">Kilobyte</string>
-    <string name="kibibyte1">Kibibyte</string>
-    <string name="megabit1">Megabit</string>
-    <string name="megabyte1">Megabyte</string>
-    <string name="mebibyte1">Mebibyte</string>
-    <string name="gigabit1">Gigabit</string>
-    <string name="gigabyte1">Gigabyte</string>
-    <string name="gibibyte1">Gibibyte</string>
-    <string name="terabit1">Terabit</string>
-    <string name="terabyte1">Terabyte</string>
-    <string name="tebibyte1">Tebibyte</string>
-
-    <string name="bit2">Bit</string>
-    <string name="byte2">Byte</string>
-    <string name="kilobit2">Kilobit</string>
-    <string name="kilobyte2">Kilobyte</string>
-    <string name="kibibyte2">Kibibyte</string>
-    <string name="megabit2">Megabit</string>
-    <string name="megabyte2">Megabyte</string>
-    <string name="mebibyte2">Mebibyte</string>
-    <string name="gigabit2">Gigabit</string>
-    <string name="gigabyte2">Gigabyte</string>
-    <string name="gibibyte2">Gibibyte</string>
-    <string name="terabit2">Terabit</string>
-    <string name="terabyte2">Terabyte</string>
-    <string name="tebibyte2">Tebibyte</string>
+    <string name="storageunit1">Bit</string>
+    <string name="storageunit2">Byte</string>
+    <string name="storageunit3">Kilobit</string>
+    <string name="storageunit4">Kilobyte</string>
+    <string name="storageunit5">Kibibyte</string>
+    <string name="storageunit6">Megabit</string>
+    <string name="storageunit7">Megabyte</string>
+    <string name="storageunit8">Mebibyte</string>
+    <string name="storageunit9">Gigabit</string>
+    <string name="storageunit10">Gigabyte</string>
+    <string name="storageunit11">Gibibyte</string>
+    <string name="storageunit12">Terabit</string>
+    <string name="storageunit13">Terabyte</string>
+    <string name="storageunit14">Tebibyte</string>
 
     <!-- Area -->
     <string name="areaunit1">Sq. Meter</string>
@@ -139,13 +102,10 @@
     <string name="areaunit12">Sq. Rod</string>
 
     <!-- Temperature -->
-    <string name="tempunit1a">Celsius</string>
-    <string name="tempunit2a">Fahrenheit</string>
-    <string name="tempunit3a">Kelvin</string>
-
-    <string name="tempunit1b">Celsius</string>
-    <string name="tempunit2b">Fahrenheit</string>
-    <string name="tempunit3b">Kelvin</string>
+    <string name="tempunit1">Celsius</string>
+    <string name="tempunit2">Fahrenheit</string>
+    <string name="tempunit3">Kelvin</string>
+    <string name="tempunit4">Rankine</string>
 
 
 </resources>
