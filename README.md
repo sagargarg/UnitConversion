@@ -2,8 +2,8 @@ Unit Conversions
 ===================
 
 ## Distance/Velocity
------
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu1_layout.xml">Distance/Length</a>
+
 Convert Between:
 * Kilometer
 * Meter
@@ -20,8 +20,8 @@ Convert Between:
 * Hand
 
 ## Speed/Velocity
------
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu2_layout.xml">Distance/Length</a>
+
 Convert Between:
 * Mile/Hour
 * Kilometer/Hour
@@ -38,6 +38,82 @@ Convert Between:
 * Yard/Minute
 * Feet/Minute
 * Inch/Minute
+
+## Time
+Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu3_layout.xml">Distance/Length</a>
+
+Convert Between:
+* Year
+* Month
+* Week
+* Day
+* Hour
+* Minute
+* Second
+* Millisecond
+* Microsecond
+* Nanosecond
+
+## Mass/Weight
+Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu4_layout.xml">Mass/Weight</a>
+
+Convert Between:
+* Kilogram
+* Pound
+* Gram
+* Milligram
+* Ounce
+* Short Ton
+* Long Ton
+* Tonne
+* Grain
+* Stone
+
+## Digital Storage
+Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu5_layout.xml">Digital Storage</a>
+
+Convert Between:
+* Bit
+* Byte
+* Kilobit
+* Kilobyte
+* Kibibyte
+* Megabit
+* Megabyte
+* Mebibyte
+* Gigabit
+* Gigabyte
+* Gibibyte
+* Terabit
+* Terabyte
+* Tebibyte
+
+## Area
+Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu6_layout.xml">Area</a>
+
+Convert Between:
+* Square Meter
+* Square Kilometer
+* Square Cenimeter
+* Square Millimeter
+* Hectare
+* Are
+* Square Mile
+* Square Yard
+* Square Feet
+* Sqaure Inches
+* Acre
+* Square Rod
+
+## Temperature
+Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu7_layout.xml">Temperature</a>
+
+Convert Between:
+* Celsius
+* Fahrenheit
+* Kelvin
+* Rankine
+
 
 
 
