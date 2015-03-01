@@ -14,10 +14,6 @@ Convert Between:
 * Yard
 * Feet
 * Inches
-* Nautical Mile
-* Chain
-* Fathom
-* Hand
 
 ## Speed/Velocity
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu2_layout.xml">Speed/Velocity</a>
@@ -26,18 +22,11 @@ Convert Between:
 * Mile/Hour
 * Kilometer/Hour
 * Meter/Hour
-* Yard/Hour
-* Feet/Hour
-* Inch/Hour
 * Meter/Second
 * Yard/Second
 * Feet/Second
 * Inch/Second
 * Knot
-* Meter/Minute
-* Yard/Minute
-* Feet/Minute
-* Inch/Minute
 
 ## Time
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu3_layout.xml">Time</a>
@@ -66,8 +55,6 @@ Convert Between:
 * Short Ton
 * Long Ton
 * Tonne
-* Grain
-* Stone
 
 ## Digital Storage
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu5_layout.xml">Digital Storage</a>
