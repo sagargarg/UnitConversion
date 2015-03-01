@@ -1,5 +1,6 @@
-Unit Conversions
+<a href="https://play.google.com/store/apps/details?id=com.abi.sagar.ultimateunitconverter">Unit Converter</a>
 ===================
+Unit Converter is a simple and easy to use converter with a clean user interface. Features fast, real time conversion in a clean interface. Developed for the Google Play Store.
 
 ## Distance/Velocity
 Layout - <a href="https://github.com/sagargarg/UnitConversion/blob/master/menu1_layout.xml">Distance/Length</a>
